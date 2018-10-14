@@ -39,7 +39,7 @@ while True:
     if gracz_x == skarb_x and gracz_y == skarb_y:
         print('Masz skarb!!')
 
-    if gracz_x < 1 or gracz_x < 10 or gracz_y < 1 or gracz_y < 10:
+    if gracz_x < 1 or gracz_x > 10 or gracz_y < 1 or gracz_y > 10:
         print("Spadleś z plansz, KONIEC GRY")
 
     odleglosc_po_ruchu = abs(gracz_x-skarb_x) + abs(gracz_y - skarb_y)
