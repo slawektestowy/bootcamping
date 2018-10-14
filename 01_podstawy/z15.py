@@ -48,6 +48,9 @@ while True:
     else:
         print('zimno')
 
+
+
+
     # if poz_gracza == poz_skarbu:
     #          print("Dotales do skarbu")
     #          exit(0)
