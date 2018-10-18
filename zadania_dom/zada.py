@@ -12,7 +12,7 @@ print(b)
 
 c = int(input("Podaj liczbe: "))
 t = 0
-g = 0
+
 for z in a:
     if c > b:
         print("za duzo")
@@ -21,9 +21,9 @@ for z in a:
     if c < b:
         print ("za malo")
         c = int(input("Podaj liczbe: "))
-        g +=1
+        t +=1
     if c == b:
-        print(f'Udało sie za {t+g+1} razem')
+        print(f'Udało sie za {t + 1} razem')
         break
 
 
